@@ -1,0 +1,17 @@
+.name-container {
+  color: white;
+  background: rgb(6, 11, 94);
+  margin: 10px 15px;
+  min-width: 75px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  transition: background 0.35s;
+}
+
+.name-container:hover {
+  background: rgb(20, 9, 119);
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+}
